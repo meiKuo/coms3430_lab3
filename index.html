@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <meta charset="utf‐8">
+  <title> Hello web audio </title>
+</head>
+
+<body>
+  <button id = "bubbles">Play</button>
+  <p>This demonstrates how to play a bubbling sound.</p><br> 
+
+  <button id = "creative">Play</button>
+  <p>This demonstrates how to play a rainy, windy day nearby a waterfall sound.</p><br>
+
+  <h1> The Write Up:</h1> <br>
+
+  <canvas id="visualizer" width="800" height="300"></canvas><br>
+
+  <p>The sound I created was inspired by the Rain Sound from Designing Sound by Andy Farnell on page 441. The main components of my sound come from 2 low-pass frequency filters and 2 high-pass frequency filters. One of the 2 low-pass frequency filters has an oscillator to add a frequency range. The two low-pass filters create raindrop noises hitting bigger objects, like the ground or car roofs. As recommended by the book, the range can be between 10 to 300 Hertz. I decided to add an oscillator to the 200 Hz low-pass filter because I think it offers a more dynamic complexity to the rain - like a low rumbling thunder. I also layered the two frequencies of 80 Hz and another frequency of 200 Hz. For the high-frequency band of sounds, they come from “secondary excitations” (as the book calls it).  They are referred to as comfort noise and have a calming effect. I layered that with a 1000 Hz frequency and a 5000 Hz frequency to add some complexity to the ambience of the rain. This sound reminds me of a waterfall trail my family and I go hiking to. This sound captures the timeframe of the drizzling rain after a storm if you are sitting by a rock near the waterfall. 
+  </p> 
+
+</body>
+<script src="main.js"> </script>
+
+</html>
